@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#navbarSupportedContent .nav-link{
+  font-weight: 500;
+}
+.this_active{
+color: deepskyblue !important;
+}
+.nav-item .active{
+   color: deepskyblue !important;
+
+ }
+
+#navbarSupportedContent .nav-link:hover {
+  color: skyblue;
+}
+.get-started-btn{
+  width: 25% !important;
+}
+
