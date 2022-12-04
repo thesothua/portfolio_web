@@ -2,11 +2,17 @@ import React from "react";
 
 export default function Contact() {
   return (
+ <div className="section_div">
     <section className="container-fluid">
       <div className="row">
-        <div className="col-sm-12"></div>
+        <div className="col-sm-12 text-center my-3">
+          <h2>GET IN TOUCH</h2>
+          <p>Phone: +9783410487</p>
+          <p>Email: praveensuthar9553@gmai.com</p>
+          <p>Address: sev kedar socity , chanladia Ahmedabad</p>
+        </div>
       </div>
-      <div className="row">
+      <div className="row my-5">
         <form action="" className="col-md-10 m-auto">
           <div className="row">
             <div className="col-md-6">
@@ -49,5 +55,6 @@ export default function Contact() {
         </form>
       </div>
     </section>
+    </div>
   );
 }

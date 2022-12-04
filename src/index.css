@@ -34,4 +34,8 @@ color: deepskyblue !important;
 .get-started-btn{
   width: 25% !important;
 }
+.section_div{
+  background-image: url('https://images.pexels.com/photos/316466/pexels-photo-316466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-size: cover;
+}
 
